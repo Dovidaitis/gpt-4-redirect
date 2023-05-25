@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "gpt-4-redirect",
+    "version": "1.0",
+  
+    "description": "Redirect to GPT-4",
+    "content_scripts": [
+        {
+            "matches": ["https://chat.openai.com/"],
+            "js": ["main.js"],
+            "inject_js":{
+                "run_at": "document_end"
+                }
+        }
+    ],
+    "icons": {
+        "128": "./assets/logo.png"
+    }
+}
