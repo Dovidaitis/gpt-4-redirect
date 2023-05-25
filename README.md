@@ -1,6 +1,6 @@
 # click-gpt4
 
-## Instalation 
+## Extension activation guide 
 1. `git clone https://github.com/Dovidaitis/gpt-4-redirect`
 2. `cd` gpt-4-redirect
 3. `rm` README.md
